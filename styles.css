@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #006400;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    display: flex; /* Aligns links in a row */
+    justify-content: center; /* Centers them horizontally */
+    gap: 20px; /* Adds spacing between links */
+}
+
+nav ul li {
+    display: inline; /* Keeps links in one line */
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #006400, #32CD32);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 18px; /* Adjust size if needed */
+    font-weight: bold; /* Makes text bolder */
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-image: linear-gradient(to right, #32CD32, #006400);
+    transform: scale(1.1); /* Slightly increases size on hover */
+}
+
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.content-box {
+    position: relative;
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.logo-left, .logo-right {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+    position: absolute;
+}
+
+.logo-left {
+    top: 10px;
+    left: 10px;
+}
+
+.logo-right {
+    top: 10px;
+    right: 10px;
+}
+/* Work Experience Section */
+.work-section {
+    font-family: Arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.8 !important;
+    width: 70% !important;
+    margin: 20px auto !important;
+    padding: 20px !important;
+    background: white !important;
+    box-shadow: 0px 0px 10px gray !important;
+    border-radius: 5px !important;
+    text-align: left !important; /* Ensures only this section aligns left */
+}
+
+/* Job Titles */
+.work-section h3 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: left !important;
+}
+
+/* Bullet Points */
+.work-section ul {
+    list-style-type: disc !important;
+    padding-left: 40px !important; /* Ensures proper indentation */
+    margin-top: 10px !important;
+}
+
+/* List Items */
+.work-section li {
+    margin-bottom: 8px !important;
+    text-indent: 0 !important;
+}
